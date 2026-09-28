@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0003",
+  "name": "医美机构双人合影",
+  "revision": 1,
+  "originalDirectory": "test3",
+  "sourceNote": "3.\n\n医美机构内双人合影(姿势随机/图2女生尽可能露出来上半身)\n将图2女生自然融入图1环境中，与图1女生形成一张真实自然的医美术后双人合影。",
+  "slotMappingStatus": "unverified",
+  "slots": [
+    {
+      "order": 1,
+      "slotKey": null,
+      "label": "上传图1（待核对）"
+    },
+    {
+      "order": 2,
+      "slotKey": null,
+      "label": "上传图2（待核对）"
+    }
+  ],
+  "competitorReference": {
+    "sourceType": "competitor",
+    "inputs": [
+      {
+        "path": "competitor/input_01.jpg",
+        "originalRelativePath": "test3/上传图1.jpg",
+        "sizeBytes": 2000773,
+        "sha256": "b5e4fa8980974dd9d892ebdf5ad736cfbc0c336e3c690be444ea54ed5ac33bea",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file",
+        "slotKey": null
+      },
+      {
+        "path": "competitor/input_02.jpg",
+        "originalRelativePath": "test3/上传图2.jpg",
+        "sizeBytes": 1428976,
+        "sha256": "62db7ee2fa581d62530a1b1107409b7969bc0d12e5f16b4c9f702fe4a12e25fc",
+        "contentType": "image/jpeg",
+        "order": 2,
+        "representation": "image_file",
+        "slotKey": null
+      }
+    ],
+    "effects": [
+      {
+        "path": "competitor/effect_01.jpg",
+        "originalRelativePath": "test3/生成效果.jpg",
+        "sizeBytes": 2025331,
+        "sha256": "477f5b3e2215668ee1a28f1de8fb2a4b9e55e6b70386e337a7d8c1b359e3f3df",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file"
+      }
+    ],
+    "missingNote": null
+  },
+  "imageSets": [],
+  "testCases": []
+}

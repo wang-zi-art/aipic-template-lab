@@ -1,0 +1,123 @@
+<!doctype html>
+<!-- 批次联系表样稿：整批用例矩阵、状态筛选和单行展开。 -->
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>批次联系表 · 结果对比</title>
+    <link rel="stylesheet" href="matrix.css" />
+    <script src="demo-data.js" defer></script>
+    <script src="matrix.js" defer></script>
+  </head>
+  <body>
+    <header class="masthead">
+      <a class="brand" href="index.html"
+        ><span class="brand-mark">◈</span><span>AIPIC LAB <small>/ COMPARISON</small></span></a
+      >
+      <nav aria-label="切换方案">
+        <a href="workbench.html">逐例评审</a
+        ><a class="active" href="matrix.html" aria-current="page">批次联系表</a
+        ><a href="detail.html">局部差异</a>
+      </nav>
+      <div class="session"><span></span> LOCAL PREVIEW</div>
+    </header>
+    <div class="demo-banner">
+      <b>演示数据</b>　结果图来自项目测试素材的视觉模拟；此页面不展示真实的 A/B/C 生成结果。
+    </div>
+    <main class="page">
+      <div class="eyebrow">02 / BATCH-FIRST REVIEW</div>
+      <div class="page-intro">
+        <div>
+          <h1>一眼看完整轮测试。</h1>
+          <p>以用例为行、候选为列。先找到异常，再进入单组详细对比。</p>
+        </div>
+        <div class="batch-id">
+          <span>执行编号</span><strong id="executionId"></strong
+          ><small>示例批次 · 结果持续收集中</small>
+        </div>
+      </div>
+      <section class="stats" aria-label="本轮统计">
+        <div class="stat accent">
+          <span>测试用例</span><strong id="caseTotal">04</strong><small>同一模板类型</small>
+        </div>
+        <div class="stat">
+          <span>已完成图片</span><strong id="successTotal">08</strong><small>可查看结果</small>
+        </div>
+        <div class="stat">
+          <span>需要关注</span><strong id="attentionTotal">03</strong
+          ><small>失败 / 缺失 / 待核对</small>
+        </div>
+        <div class="stat">
+          <span>处理中</span><strong id="processingTotal">01</strong><small>等待下一次收集</small>
+        </div>
+      </section>
+      <section class="board-section" aria-labelledby="boardTitle">
+        <div class="board-heading">
+          <div>
+            <span class="eyebrow">CONTACT SHEET</span>
+            <h2 id="boardTitle">候选结果矩阵</h2>
+            <p>点击任意一行，以大图打开该用例。</p>
+          </div>
+          <div class="board-meta">
+            <span id="templateName"></span><span id="generationMeta"></span>
+          </div>
+        </div>
+        <div class="controls">
+          <div class="filter-group" role="group" aria-label="筛选用例">
+            <button type="button" class="selected" data-filter="all">
+              全部 <span id="allCount"></span></button
+            ><button type="button" data-filter="ready">全部完成</button
+            ><button type="button" data-filter="processing">处理中</button
+            ><button type="button" data-filter="attention">需关注</button>
+          </div>
+          <label class="search"
+            ><span aria-hidden="true">⌕</span
+            ><input
+              id="caseSearch"
+              type="search"
+              placeholder="搜索用例编号或说明"
+              aria-label="搜索用例"
+          /></label>
+        </div>
+        <div class="matrix-scroll">
+          <div class="matrix-inner">
+            <div class="matrix-head">
+              <span>测试用例 / 原图</span><span><b class="key a">A</b> 基础版本</span
+              ><span><b class="key b">B</b> 细节版本</span
+              ><span><b class="key c">C</b> 自然版本</span>
+            </div>
+            <div id="matrixRows" class="matrix-rows"></div>
+          </div>
+        </div>
+        <p id="emptyFilter" class="empty-filter" hidden>当前筛选下没有用例。试试其他条件。</p>
+      </section>
+      <footer>
+        <span>图片按需加载 · 点击一行展开 · Esc 关闭详情</span
+        ><span>DEMO / NOT A GENERATION REPORT</span>
+      </footer>
+    </main>
+    <dialog id="detailDialog" class="detail-dialog" aria-labelledby="dialogHeading">
+      <div class="dialog-heading">
+        <div>
+          <span class="eyebrow">CASE DETAIL / <span id="dialogCaseId"></span></span>
+          <h2 id="dialogHeading"></h2>
+          <p id="dialogFocus"></p>
+        </div>
+        <button id="closeDialog" type="button" aria-label="关闭详情">×</button>
+      </div>
+      <div class="dialog-body">
+        <div class="dialog-tools">
+          <div id="dialogSources" class="dialog-sources"></div>
+          <label
+            >同步放大
+            <input id="dialogZoom" type="range" min="100" max="200" value="100" step="10" /><output
+              id="dialogZoomValue"
+              >100%</output
+            ></label
+          >
+        </div>
+        <div id="dialogResults" class="dialog-results"></div>
+      </div>
+    </dialog>
+  </body>
+</html>

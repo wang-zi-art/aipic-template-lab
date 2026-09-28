@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "templates": [
+    {
+      "templateTypeId": "TPL0001",
+      "name": "动作模仿",
+      "directory": "TPL0001-action-imitation",
+      "originalDirectory": "test1"
+    },
+    {
+      "templateTypeId": "TPL0002",
+      "name": "双眼皮固定医用胶带",
+      "directory": "TPL0002-eyelid-medical-tape",
+      "originalDirectory": "test2"
+    },
+    {
+      "templateTypeId": "TPL0003",
+      "name": "医美机构双人合影",
+      "directory": "TPL0003-clinic-two-person-photo",
+      "originalDirectory": "test3"
+    },
+    {
+      "templateTypeId": "TPL0004",
+      "name": "操作室人物融合",
+      "directory": "TPL0004-treatment-room-integration",
+      "originalDirectory": "test4"
+    },
+    {
+      "templateTypeId": "TPL0005",
+      "name": "咨询室人物融合",
+      "directory": "TPL0005-consultation-room-integration",
+      "originalDirectory": "test5"
+    },
+    {
+      "templateTypeId": "TPL0006",
+      "name": "操作床人物融合",
+      "directory": "TPL0006-treatment-bed-integration",
+      "originalDirectory": "test6"
+    },
+    {
+      "templateTypeId": "TPL0007",
+      "name": "医美机构素人图",
+      "directory": "TPL0007-clinic-candid-portrait",
+      "originalDirectory": "test7"
+    },
+    {
+      "templateTypeId": "TPL0008",
+      "name": "日常手机自拍",
+      "directory": "TPL0008-daily-selfie",
+      "originalDirectory": "test8"
+    },
+    {
+      "templateTypeId": "TPL0009",
+      "name": "小红书日常形象照",
+      "directory": "TPL0009-lifestyle-makeover",
+      "originalDirectory": "test9"
+    },
+    {
+      "templateTypeId": "TPL0010",
+      "name": "面部皮肤状态参考",
+      "directory": "TPL0010-skin-condition-transfer",
+      "originalDirectory": "test10"
+    },
+    {
+      "templateTypeId": "TPL0011",
+      "name": "面部骨相结构参考",
+      "directory": "TPL0011-facial-structure-transfer",
+      "originalDirectory": "test11"
+    },
+    {
+      "templateTypeId": "TPL0012",
+      "name": "五官复刻",
+      "directory": "TPL0012-facial-feature-transfer",
+      "originalDirectory": "test12"
+    },
+    {
+      "templateTypeId": "TPL0013",
+      "name": "术后恢复期种草图",
+      "directory": "TPL0013-recovery-lifestyle-photo",
+      "originalDirectory": "test13"
+    },
+    {
+      "templateTypeId": "TPL0014",
+      "name": "侧面鼻形替换",
+      "directory": "TPL0014-nose-replacement-side-view",
+      "originalDirectory": "test14"
+    },
+    {
+      "templateTypeId": "TPL0015",
+      "name": "双眼皮愈合时间线",
+      "directory": "TPL0015-eyelid-recovery-timeline",
+      "originalDirectory": "test15"
+    },
+    {
+      "templateTypeId": "TPL0016",
+      "name": "正面鼻形替换",
+      "directory": "TPL0016-nose-replacement-front-view",
+      "originalDirectory": "test16"
+    },
+    {
+      "templateTypeId": "TPL0017",
+      "name": "身材增重效果",
+      "directory": "TPL0017-body-weight-change",
+      "originalDirectory": "test17"
+    },
+    {
+      "templateTypeId": "TPL0018",
+      "name": "单双眼皮手机对比图",
+      "directory": "TPL0018-eyelid-comparison-phone",
+      "originalDirectory": "test18"
+    },
+    {
+      "templateTypeId": "TPL0019",
+      "name": "正面眼形替换",
+      "directory": "TPL0019-eyelid"
+    }
+  ]
+}

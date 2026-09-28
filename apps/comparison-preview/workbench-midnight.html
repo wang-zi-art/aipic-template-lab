@@ -1,0 +1,119 @@
+<!doctype html>
+<!-- 逐例评审台·石墨方案：保留 A/B/C 同屏交互，展示石墨与蓝紫视觉样式。 -->
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>逐例评审台 · 石墨与蓝紫</title>
+    <link rel="stylesheet" href="workbench-theme.css" />
+    <script src="demo-data.js" defer></script>
+    <script src="workbench.js" defer></script>
+  </head>
+  <body data-theme="midnight">
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="index.html" aria-label="返回方案首页"
+          ><span class="brand-symbol">◈</span><span>AIPIC <b>/</b> LAB</span></a
+        >
+        <div class="top-center">
+          <span class="top-kicker">TEMPLATE REVIEW</span><span class="top-separator"></span
+          ><span>逐例评审台</span>
+        </div>
+        <nav class="switcher" aria-label="切换方案">
+          <a class="current" href="workbench-midnight.html">01 评审台</a
+          ><a href="matrix.html">02 联系表</a><a href="detail.html">03 差异台</a>
+        </nav>
+      </header>
+      <div class="demo-ribbon">
+        <strong>演示数据</strong><span>候选图片仅用项目测试素材模拟，不代表真实生成结果。</span>
+      </div>
+      <nav class="style-picker" aria-label="逐例评审台视觉方案">
+        <span>视觉方案</span>
+        <a href="workbench.html"><i class="swatch-ivory"></i>暖白 · 墨绿</a>
+        <a href="workbench-slate.html"><i class="swatch-slate"></i>冷白 · 蓝灰</a>
+        <a class="selected" href="workbench-midnight.html" aria-current="page"
+          ><i class="swatch-midnight"></i>石墨 · 蓝紫</a
+        >
+      </nav>
+      <div class="workspace">
+        <aside class="case-sidebar" aria-label="测试用例">
+          <div class="sidebar-head">
+            <span class="eyebrow">THIS BATCH</span>
+            <h2>测试用例</h2>
+            <p>逐组检查 A / B / C 的差异</p>
+          </div>
+          <div id="caseList" class="case-list"></div>
+          <div class="sidebar-bottom">
+            <span class="signal"></span>
+            <div><strong>本地样稿</strong><small>不连接后台服务</small></div>
+          </div>
+        </aside>
+        <main class="main-panel">
+          <div class="breadcrumb">
+            <span id="crumbTemplate">TPL0019</span><span>/</span><span id="crumbCase">T001</span
+            ><span>/</span><strong>候选对比</strong>
+          </div>
+          <section class="heading">
+            <div>
+              <span class="eyebrow teal">CASE REVIEW · <span id="caseCounter">01 / 04</span></span>
+              <h1 id="caseTitle">正面半身 · 身份保持</h1>
+              <p id="caseFocus"></p>
+            </div>
+            <div class="case-nav">
+              <button id="prevCase" type="button" aria-label="上一用例">←</button
+              ><button id="nextCase" type="button" aria-label="下一用例">→</button>
+            </div>
+          </section>
+          <div class="meta-bar">
+            <div class="meta-item"><span>模板类型</span><strong id="templateName"></strong></div>
+            <div class="meta-item"><span>图片比例</span><strong id="ratio"></strong></div>
+            <div class="meta-item"><span>生成规格</span><strong id="resolution"></strong></div>
+            <div class="meta-item"><span>候选版本</span><strong>A-v1 / B-v1 / C-v1</strong></div>
+          </div>
+          <div class="compare-toolbar">
+            <div>
+              <span class="toolbar-dot"></span><strong>同步视图</strong
+              ><span class="hint">在任一结果图上拖动，三图同步移动</span>
+            </div>
+            <div class="zoom-controls">
+              <button id="zoomOut" type="button" aria-label="缩小">−</button
+              ><output id="zoomValue" aria-live="polite">100%</output
+              ><button id="zoomIn" type="button" aria-label="放大">＋</button
+              ><button id="resetZoom" type="button" class="reset">重置视图</button>
+            </div>
+          </div>
+          <section id="resultGrid" class="result-grid" aria-label="A B C 结果对比"></section>
+          <div class="main-footer">
+            <span>← → 切换用例　·　＋ / − 缩放　·　拖动图片同步平移</span
+            ><span id="casePosition">01 / 04</span>
+          </div>
+        </main>
+        <aside class="inspector" aria-label="用例信息">
+          <div class="inspector-title">
+            <span class="eyebrow">SOURCE & CONTEXT</span>
+            <h2>输入与说明</h2>
+          </div>
+          <div id="sourceList" class="source-list"></div>
+          <div class="info-block">
+            <span>关注点</span>
+            <p id="inspectorFocus"></p>
+          </div>
+          <div class="info-block">
+            <span>本轮执行</span>
+            <p class="mono" id="executionShort"></p>
+          </div>
+          <div class="inspector-note">
+            三张候选图默认完整显示。放大后的位置同步，便于观察同一部位。
+          </div>
+        </aside>
+      </div>
+    </div>
+    <dialog id="sourceDialog" class="source-dialog" aria-label="查看输入图片">
+      <div class="dialog-top">
+        <strong id="dialogTitle"></strong
+        ><button id="closeDialog" type="button" aria-label="关闭">×</button>
+      </div>
+      <img id="dialogImage" alt="" />
+    </dialog>
+  </body>
+</html>

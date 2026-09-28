@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0016",
+  "name": "正面鼻形替换",
+  "revision": 1,
+  "originalDirectory": "test16",
+  "sourceNote": "16.\n\n给图1原图女生改变成图2的鼻子形态+正面机位\n仅替换图1中女生的鼻子为图2中女生的鼻子\t正面好看/丑的鼻子都可以\t\n最好选择正面近景，这样更能突出鼻子的效果，可以适当剪裁一下原图!",
+  "slotMappingStatus": "unverified",
+  "slots": [
+    {
+      "order": 1,
+      "slotKey": null,
+      "label": "上传图1（待核对）"
+    },
+    {
+      "order": 2,
+      "slotKey": null,
+      "label": "上传图2（待核对）"
+    }
+  ],
+  "competitorReference": {
+    "sourceType": "competitor",
+    "inputs": [
+      {
+        "path": "competitor/input_01.jpg",
+        "originalRelativePath": "test16/上传图1.jpg",
+        "sizeBytes": 165909,
+        "sha256": "5e1f81237a3df342320cc04e013bddad632f6176e24f97556edcd610b056763a",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file",
+        "slotKey": null
+      },
+      {
+        "path": "competitor/input_02.jpg",
+        "originalRelativePath": "test16/上传图2.jpg",
+        "sizeBytes": 43588,
+        "sha256": "c5ff3a29f46e94888e144b2fdf743b9c2d35b8fef0ad276694f78a9573b76828",
+        "contentType": "image/jpeg",
+        "order": 2,
+        "representation": "image_file",
+        "slotKey": null
+      }
+    ],
+    "effects": [
+      {
+        "path": "competitor/effect_01.jpg",
+        "originalRelativePath": "test16/生成效果图.jpg",
+        "sizeBytes": 169407,
+        "sha256": "7bdbcfb18d02e8fc19bc3a4258d40ef73d7b08ef4160f69e7a94c24d8e92d1c6",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file"
+      }
+    ],
+    "missingNote": null
+  },
+  "imageSets": [],
+  "testCases": []
+}

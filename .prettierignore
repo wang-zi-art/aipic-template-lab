@@ -1,0 +1,8 @@
+docs/
+# 迁入的八个测试文件保持原始字节；Lint 和测试仍覆盖这些文件。
+apps/mcp/test/*
+!apps/mcp/test/materials-verify.test.ts
+node_modules/
+dist/
+coverage/
+pnpm-lock.yaml

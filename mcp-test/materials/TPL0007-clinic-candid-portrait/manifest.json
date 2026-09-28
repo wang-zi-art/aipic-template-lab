@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0007",
+  "name": "医美机构素人图",
+  "revision": 1,
+  "originalDirectory": "test7",
+  "sourceNote": "7.\n20-30岁素人素材(背景固定)/人物五官、服装系统随机生成\n上传同款示例原图，根据示例图随机生成20-30岁素人医疗机构素人图",
+  "slotMappingStatus": "unverified",
+  "slots": [
+    {
+      "order": 1,
+      "slotKey": null,
+      "label": "上传图1（待核对）"
+    }
+  ],
+  "competitorReference": {
+    "sourceType": "competitor",
+    "inputs": [
+      {
+        "path": "competitor/input_01.jpg",
+        "originalRelativePath": "test7/上传图1.jpg",
+        "sizeBytes": 1846412,
+        "sha256": "e82e397c76fee89d92049c33caabab92c27557cd3e620f763ba8d99c7d526d8c",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file",
+        "slotKey": null
+      }
+    ],
+    "effects": [
+      {
+        "path": "competitor/effect_01.jpg",
+        "originalRelativePath": "test7/生成效果图.jpg",
+        "sizeBytes": 1924524,
+        "sha256": "64d776ecf29f04bcad14cd52446e6b45b22da82fdce8a2ec76d49692a3eed7fa",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file"
+      }
+    ],
+    "missingNote": null
+  },
+  "imageSets": [],
+  "testCases": []
+}

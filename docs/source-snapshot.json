@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "sourceRoot": "D:\\myproject\\aipic",
+  "sourceCommit": "e5f66ee5a085062040d6ab72f3fe9083d94823e8",
+  "sourceBranch": "main_new",
+  "sourceWorkingTree": [
+    " M docs/README.md",
+    " M docs/project-status.md",
+    "?? docs/features/033-template-testing-project-migration.md"
+  ],
+  "copiedFiles": [
+    {
+      "path": "apps/mcp/config.example.json",
+      "sha256": "e8a6465b2fd1ef9e27de417f24e1ac36ca605bf6d11bb09bcd8c548e5777dadf"
+    },
+    {
+      "path": "apps/mcp/package.json",
+      "sha256": "acf52c04b840df2e024b517897c0e503ff85efcb7c75010c2506ccf1340a0a35"
+    },
+    {
+      "path": "apps/mcp/README.md",
+      "sha256": "694969b1775836e1a227f8d90323c447faaab5276619023c38044d64e72caf97"
+    },
+    {
+      "path": "apps/mcp/src/api-client.ts",
+      "sha256": "1f0595191cc469d5b436dc56c771db1f7ad947452f47172d11ab5ccb471c58ac"
+    },
+    {
+      "path": "apps/mcp/src/batch-comparison-cli.ts",
+      "sha256": "9a55d61406a266eef8f26192e996d753596caf0b6546014d885f15962462ab0d"
+    },
+    {
+      "path": "apps/mcp/src/batch-comparison.ts",
+      "sha256": "0a222b65bf63cfbb8dae3290ec68540d1a1b9f407825c4d0f2b476f397acc260"
+    },
+    {
+      "path": "apps/mcp/src/candidate-service.ts",
+      "sha256": "b63fbbd927c240e18608bbfaf6a3910e2a57e2850ba05987f0dc9bc4da3a8076"
+    },
+    {
+      "path": "apps/mcp/src/config.ts",
+      "sha256": "16d4e519fdc43867001f530949fd6e3f8960684f39b7c9760c6a2ffe13730b67"
+    },
+    {
+      "path": "apps/mcp/src/cos-uploader.ts",
+      "sha256": "c588e7f20e639bfee48278fe38302d633e318abd50ef4356f749e234bd174052"
+    },
+    {
+      "path": "apps/mcp/src/errors.ts",
+      "sha256": "c499e5d9fdc1d0ee64527eba0c0b20b9ede201675d3b4e6598ba44fb9c66b4a0"
+    },
+    {
+      "path": "apps/mcp/src/local-files.ts",
+      "sha256": "dc8c0ff127c5aee257c6396fb8b95209b39f9f5bf47205110b1ce2967018ff93"
+    },
+    {
+      "path": "apps/mcp/src/main.ts",
+      "sha256": "8c2fa91a32824b632914706c05c5d2b4001cd0aa446465778c92af23c9a7b10c"
+    },
+    {
+      "path": "apps/mcp/src/mutation-report.ts",
+      "sha256": "c8dc187c40b87d781f4e0758dc6f21a9c8268976cee0137c531ab916e28031f4"
+    },
+    {
+      "path": "apps/mcp/src/report.ts",
+      "sha256": "833df4d06509a6f35f1a9ba17458b6fc4272c79b812210015ce0c05b5f28cffe"
+    },
+    {
+      "path": "apps/mcp/src/template-mutation-service.ts",
+      "sha256": "679a22341e228c5cfd6793eb2e4b2216cf163fe7116641f0dedb3fb2ae839006"
+    },
+    {
+      "path": "apps/mcp/src/tools.ts",
+      "sha256": "713b7ad02133e732965aff7c2db4a802f7559e4e5d44d7ea24fca48df0208e8c"
+    },
+    {
+      "path": "apps/mcp/src/trial-files.ts",
+      "sha256": "b3d8ef3b06f2ac8c26146b47b21ceaae8e88577e74156c1098e139380e59a9a9"
+    },
+    {
+      "path": "apps/mcp/src/trial-report.ts",
+      "sha256": "8a96a85d2a0369abd7c4955fd9c3365aef89362e983a3f308510e4077c9f0042"
+    },
+    {
+      "path": "apps/mcp/src/trial-service.ts",
+      "sha256": "c50abb0df19654b39d3fceec684e640f6e9cbe51895e9d023ef0cfc1bda30a34"
+    },
+    {
+      "path": "apps/mcp/test/api-client.test.ts",
+      "sha256": "d4f3c6255410d79d8386c7622af63c86938420c82c9ec0a3d6362abc20b5dce7"
+    },
+    {
+      "path": "apps/mcp/test/batch-comparison.test.ts",
+      "sha256": "bfa16c8b169a33c6126cf77379d2a344673317d665b97e33fa77fc60fd06a3b7"
+    },
+    {
+      "path": "apps/mcp/test/candidate-service.test.ts",
+      "sha256": "be166c5f7c8fede9bea1f4dde49184f24257d6c5e9212363745bfd089f922db3"
+    },
+    {
+      "path": "apps/mcp/test/config-and-files.test.ts",
+      "sha256": "34bac31994d9fd57fc9ebb05a57610d19b40ad1aba94c648e443c5eeff8d312f"
+    },
+    {
+      "path": "apps/mcp/test/report.test.ts",
+      "sha256": "a2f0aee16e3dccca9aa1814472bb8f814b3aece5a1f1eb88fa9fde024eb73015"
+    },
+    {
+      "path": "apps/mcp/test/template-mutation-service.test.ts",
+      "sha256": "b856b84a98bc453fb41e471d450ce105fd9ea1eb0eb4bf939c2c5f189618ce2f"
+    },
+    {
+      "path": "apps/mcp/test/tools-protocol.test.ts",
+      "sha256": "8efbfe8206690d5d634a073a801141ad1153553132f10e55d6c739d46b1c9f69"
+    },
+    {
+      "path": "apps/mcp/test/trial-service.test.ts",
+      "sha256": "cee48da57bb24b2ca821234695d62c1d1ccab345c95ef1a9fdddcc02b95b8c82"
+    },
+    {
+      "path": "apps/mcp/tsconfig.build.json",
+      "sha256": "6ed7b3228dee70a6ad4e81d7c6d97c5f82ef91309b33a4deabdfadae511ad21f"
+    },
+    {
+      "path": "apps/mcp/tsconfig.json",
+      "sha256": "8d0a5b8fa42ddce7f1818c7094d9ad0c968412133a48f580f3a5af50ac3ced06"
+    },
+    {
+      "path": "packages/contracts/package.json",
+      "sha256": "dca7fc23c725b48d32eb515eadc59f2987bc9e8beceb155d37c6a1cb2900c338"
+    },
+    {
+      "path": "packages/contracts/src/generation-models.ts",
+      "sha256": "8f769d33ca0ca7c689d780b04221ef73c73b3dea980f25c3f536f0687b400588"
+    },
+    {
+      "path": "packages/contracts/src/generation-tasks.ts",
+      "sha256": "12955726e2a5e158157f009d51fc03b3241e380707800b8ec0e66f10c8628f1e"
+    },
+    {
+      "path": "packages/contracts/src/image-uploads.ts",
+      "sha256": "94a85afb345bc0956e5ccd16128a56502bdc1ed81223cbbb12b527b6953b16c3"
+    },
+    {
+      "path": "packages/contracts/src/platform-admin-system-template-assets.ts",
+      "sha256": "5b80649cc2a451652656f6a8104f609cfc90fb1ae643e08bc109cbe080a819c1"
+    },
+    {
+      "path": "packages/contracts/src/platform-admin-system-templates.ts",
+      "sha256": "c453b56e04c5b386154487983ac9b5768cd49d787bb58f72ee16d48dc3ca8ee4"
+    },
+    {
+      "path": "packages/contracts/src/platform-admin-template-directory.ts",
+      "sha256": "30095a1e42ca299cc6341581f5c82d7abd2151da96e3a4292bbc8efa3fd4024b"
+    },
+    {
+      "path": "packages/contracts/src/platform-admin.ts",
+      "sha256": "b1b68dc38a0191504d1b49dcb94fd566a768b7acbcc4e21abfd960c7b604f130"
+    },
+    {
+      "path": "packages/contracts/src/template-catalog.ts",
+      "sha256": "17ecbbdcacb30b2c862ff4da9f2018219ea2a6d0f5ff344c2ed32325a481f7f3"
+    },
+    {
+      "path": "packages/contracts/src/template-trials.ts",
+      "sha256": "2ee8dd90d35efddcd150e9227f6d89b31fad7485114d20dc66a958c202dea6e9"
+    },
+    {
+      "path": "packages/contracts/tsconfig.build.json",
+      "sha256": "8d5e4b09279c6b4a59694fdd85d560444f16b2a4b25a2611b819029b124db989"
+    },
+    {
+      "path": "packages/contracts/tsconfig.json",
+      "sha256": "4b38b08c19c5f05ac530df7f10a1c3563dea21e37e8763c9173eddd847f32c71"
+    },
+    {
+      "path": "tsconfig.base.json",
+      "sha256": "71d3bb93d09b994a7725389dceeba959741b0b74b7d53ab26a191b4832d13662"
+    }
+  ]
+}

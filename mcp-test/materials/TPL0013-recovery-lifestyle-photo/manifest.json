@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0013",
+  "name": "术后恢复期种草图",
+  "revision": 1,
+  "originalDirectory": "test13",
+  "sourceNote": "13.\n上传术后恢复期图，随机生成小红书种草网感图(术后痕迹会被微微弱化)\n查看示例\t上传带有术后痕迹恢复期图，然后给人\t\n物换背景、换发型、换夏季服饰生成具有网感种草效果图。注:人物会微微带有淡妆。",
+  "slotMappingStatus": "unverified",
+  "slots": [
+    {
+      "order": 1,
+      "slotKey": null,
+      "label": "上传图1（待核对）"
+    }
+  ],
+  "competitorReference": {
+    "sourceType": "competitor",
+    "inputs": [
+      {
+        "path": "competitor/input_01.jpg",
+        "originalRelativePath": "test13/上传图1.jpg",
+        "sizeBytes": 2038242,
+        "sha256": "7e2fad86dd8ea6d07a40e52b1e95fa3d1bc172ecdf9a5e82767c3db328a7a3a3",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file",
+        "slotKey": null
+      }
+    ],
+    "effects": [
+      {
+        "path": "competitor/effect_01.jpg",
+        "originalRelativePath": "test13/生成效果图.jpg",
+        "sizeBytes": 2061662,
+        "sha256": "231cd1d9a083263526eff19d068545520bf81bc7ca4f5ff1350cc0079842b88c",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file"
+      }
+    ],
+    "missingNote": null
+  },
+  "imageSets": [],
+  "testCases": []
+}

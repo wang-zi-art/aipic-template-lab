@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0004",
+  "name": "操作室人物融合",
+  "revision": 3,
+  "originalDirectory": "test4",
+  "sourceNote": "4.\n图2女生融合到图1操作室场景中(模特点赞手势)\n将图2女生融合到图1操作室诊疗椅子上，图1医生姿势倾向女生，图2女生做点赞的手势，整体融合自然",
+  "slotMappingStatus": "unverified",
+  "slotMappingNote": "栏位键来自旧项目的候选回读，仅作为待核对定义；新候选试用前须回读后台当前版本。友商平台原始栏位键未知，competitorReference.inputs 中仍记为 null。",
+  "slots": [
+    {
+      "order": 1,
+      "slotKey": "room_scene",
+      "label": "操作室与医护人员"
+    },
+    {
+      "order": 2,
+      "slotKey": "seated_woman",
+      "label": "入座女生"
+    }
+  ],
+  "competitorReference": {
+    "sourceType": "competitor",
+    "inputs": [
+      {
+        "path": "competitor/input_01.jpg",
+        "originalRelativePath": "test4/上传图1.jpg",
+        "sizeBytes": 1704896,
+        "sha256": "f6c4868c1298db68c03ef4dd6b68fe227acd1200736c7831a6b3c35f411d1a77",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "screenshot",
+        "slotKey": null
+      },
+      {
+        "path": "competitor/input_02.jpg",
+        "originalRelativePath": "test4/上传图2.jpg",
+        "sizeBytes": 1814104,
+        "sha256": "ccee9d5658c823707c3f0d80a86a2f6c3106ed01ba8954095fc7689072d1cfd7",
+        "contentType": "image/jpeg",
+        "order": 2,
+        "representation": "screenshot",
+        "slotKey": null
+      }
+    ],
+    "effects": [
+      {
+        "path": "competitor/effect_01.jpg",
+        "originalRelativePath": "test4/生成效果图.jpg",
+        "sizeBytes": 1911792,
+        "sha256": "b580dd060d0afb02cc3ea3ad427975b2aee6e97db682100d4f60209fce19eecc",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "screenshot"
+      }
+    ],
+    "missingNote": null
+  },
+  "imageSets": [
+    {
+      "id": "S001",
+      "inputs": [
+        {
+          "path": "test-inputs/S001/input_01_room_scene_capture.jpg",
+          "sizeBytes": 1704896,
+          "sha256": "f6c4868c1298db68c03ef4dd6b68fe227acd1200736c7831a6b3c35f411d1a77",
+          "contentType": "image/jpeg",
+          "order": 1,
+          "slotKey": "room_scene",
+          "representation": "screenshot"
+        },
+        {
+          "path": "test-inputs/S001/input_02_seated_woman_annotated.png",
+          "sizeBytes": 503719,
+          "sha256": "8fb10fc4834ebe15fdf91430e972179251847b03b023e6177fd4880017f67f95",
+          "contentType": "image/png",
+          "order": 2,
+          "slotKey": "seated_woman",
+          "representation": "screenshot"
+        }
+      ],
+      "tags": ["图1与友商参考相同", "图1带上传界面标记", "图2近景人脸", "图2带文字水印和红色箭头"]
+    },
+    {
+      "id": "S002",
+      "inputs": [
+        {
+          "path": "test-inputs/S002/input_01_room_scene_capture.jpg",
+          "sizeBytes": 1704896,
+          "sha256": "f6c4868c1298db68c03ef4dd6b68fe227acd1200736c7831a6b3c35f411d1a77",
+          "contentType": "image/jpeg",
+          "order": 1,
+          "slotKey": "room_scene",
+          "representation": "screenshot"
+        },
+        {
+          "path": "test-inputs/S002/input_02_seated_woman.png",
+          "sizeBytes": 250146,
+          "sha256": "39c83e0e2ded2fc5996d674093330ea249dfae2fbe70b038bc2996cf1930d74d",
+          "contentType": "image/png",
+          "order": 2,
+          "slotKey": "seated_woman",
+          "representation": "image_file"
+        }
+      ],
+      "tags": ["图1与友商参考相同", "图1带上传界面标记", "图2白背景近景人像", "图2未提供完整坐姿和手部"]
+    },
+    {
+      "id": "S003",
+      "inputs": [
+        {
+          "path": "test-inputs/S003/input_01_room_scene_capture.jpg",
+          "sizeBytes": 1704896,
+          "sha256": "f6c4868c1298db68c03ef4dd6b68fe227acd1200736c7831a6b3c35f411d1a77",
+          "contentType": "image/jpeg",
+          "order": 1,
+          "slotKey": "room_scene",
+          "representation": "screenshot"
+        },
+        {
+          "path": "test-inputs/S003/input_02_seated_woman.png",
+          "sizeBytes": 373317,
+          "sha256": "b512ac2956d1b82ac3f25abe02b3a4798c0c84248b9044f2304351a0ce8ded6a",
+          "contentType": "image/png",
+          "order": 2,
+          "slotKey": "seated_woman",
+          "representation": "image_file"
+        }
+      ],
+      "tags": ["图1与友商参考相同", "图1带上传界面标记", "图2白背景面部特写", "图2未提供衣着、坐姿和手部"]
+    }
+  ],
+  "testCases": [
+    {
+      "id": "T001",
+      "imageSetId": "S001",
+      "pool": "development",
+      "supplementalDescription": null,
+      "focus": "带水印和箭头的人脸输入能否保留身份，并避免把标记带入双人合影"
+    },
+    {
+      "id": "T002",
+      "imageSetId": "S002",
+      "pool": "development",
+      "supplementalDescription": null,
+      "focus": "近景人像缺少完整身体和手部时，能否自然入座并做点赞手势"
+    },
+    {
+      "id": "T003",
+      "imageSetId": "S003",
+      "pool": "development",
+      "supplementalDescription": null,
+      "focus": "面部特写缺少衣着与身体信息时，能否保持身份及合理生成坐姿"
+    }
+  ]
+}

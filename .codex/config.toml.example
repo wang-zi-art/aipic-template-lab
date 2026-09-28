@@ -1,0 +1,10 @@
+# 只在受信任的新项目中复制为 config.toml。切片五已启用独立项目活动入口。
+[mcp_servers.aipic_template_testing]
+command = "node"
+args = ["D:/myproject/aipic-template-lab/apps/mcp/dist/main.js"]
+cwd = "D:/myproject/aipic-template-lab"
+enabled = true
+required = false
+startup_timeout_sec = 10
+tool_timeout_sec = 300
+default_tools_approval_mode = "writes"

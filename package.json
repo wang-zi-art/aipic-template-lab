@@ -1,0 +1,28 @@
+{
+  "name": "aipic-template-lab",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": ">=24.18.0 <25",
+    "pnpm": ">=11.9.0 <12"
+  },
+  "scripts": {
+    "build": "corepack pnpm --filter @aipic/contracts build && corepack pnpm --filter @aipic/mcp build",
+    "check": "corepack pnpm format:check && corepack pnpm lint && corepack pnpm typecheck && corepack pnpm test && corepack pnpm build && corepack pnpm materials:verify",
+    "dev:mcp": "corepack pnpm --filter @aipic/contracts build && corepack pnpm --filter @aipic/mcp dev",
+    "format:check": "prettier --check \"apps/**/*.{ts,json}\" \"packages/**/*.{ts,json}\" \"*.{json,mjs,yaml,yml}\"",
+    "lint": "eslint apps/mcp/src apps/mcp/test packages/contracts/src eslint.config.mjs",
+    "materials:verify": "corepack pnpm --filter @aipic/mcp materials:verify",
+    "test": "corepack pnpm --filter @aipic/contracts build && corepack pnpm --filter @aipic/mcp test",
+    "typecheck": "corepack pnpm --filter @aipic/contracts build && corepack pnpm --filter @aipic/contracts typecheck && corepack pnpm --filter @aipic/mcp typecheck"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "eslint": "10.8.0",
+    "globals": "17.8.0",
+    "prettier": "3.9.6",
+    "typescript-eslint": "8.65.0"
+  }
+}

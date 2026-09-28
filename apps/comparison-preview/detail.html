@@ -1,0 +1,89 @@
+<!doctype html>
+<!-- 局部差异样稿：共享选区映射到 A/B/C 三幅局部放大图。 -->
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>局部差异台 · 结果对比</title>
+    <link rel="stylesheet" href="detail.css" />
+    <script src="demo-data.js" defer></script>
+    <script src="detail.js" defer></script>
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <a class="logo" href="index.html"><span>◈</span><b>AIPIC / VISUAL LAB</b></a>
+        <nav aria-label="切换方案">
+          <a href="workbench.html">逐例评审</a><a href="matrix.html">批次联系表</a
+          ><a href="detail.html" class="active" aria-current="page">局部差异台</a>
+        </nav>
+        <div class="header-side">03 <span>/</span> 03</div>
+      </header>
+      <div class="demo-note">
+        <b>DEMO · 演示数据</b
+        ><span>项目测试素材经显示处理后模拟候选结果；局部变化仅用于演示交互。</span>
+      </div>
+      <main class="main">
+        <section class="hero">
+          <div>
+            <span class="eyebrow">DETAIL-FIRST / INSPECTION MODE</span>
+            <h1>把差异，放到眼前。</h1>
+            <p>拖动任意结果上的选区。下方三幅放大视图会同步显示相同位置。</p>
+          </div>
+          <div class="hero-id">
+            <span>模板类型</span><strong id="templateName"></strong
+            ><small id="generationMeta"></small>
+          </div>
+        </section>
+        <div class="case-bar">
+          <div class="case-chips" id="caseChips" role="group" aria-label="切换测试用例"></div>
+          <div class="case-arrows">
+            <button id="prevCase" type="button" aria-label="上一用例">←</button
+            ><button id="nextCase" type="button" aria-label="下一用例">→</button>
+          </div>
+        </div>
+        <div class="case-head">
+          <div>
+            <span class="eyebrow" id="currentCaseId"></span>
+            <h2 id="caseTitle"></h2>
+            <p id="caseFocus"></p>
+          </div>
+          <div class="control-group">
+            <label for="roiSize">选区大小</label
+            ><input id="roiSize" type="range" min="20" max="65" value="42" step="1" /><output
+              id="roiSizeValue"
+              >42%</output
+            ><button id="resetRoi" type="button">重置位置</button>
+          </div>
+        </div>
+        <section class="overview" aria-labelledby="overviewTitle">
+          <div class="section-label">
+            <h3 id="overviewTitle">01 <span>全图定位</span></h3>
+            <p>在图片上按住并拖动，将选区移动到需要比较的位置</p>
+          </div>
+          <div class="overview-grid" id="overviewGrid"></div>
+        </section>
+        <section class="magnifiers" aria-labelledby="magnifierTitle">
+          <div class="section-label">
+            <h3 id="magnifierTitle">02 <span>同位放大</span></h3>
+            <p>同一坐标、三种候选，专注检查局部细节</p>
+          </div>
+          <div class="magnifier-grid" id="magnifierGrid"></div>
+        </section>
+        <section class="source-strip" aria-labelledby="sourceTitle">
+          <div>
+            <span class="eyebrow">CONTEXT</span>
+            <h3 id="sourceTitle">本组原图</h3>
+            <p>原图按上传顺序展示，用于确认人物和参考内容。</p>
+          </div>
+          <div id="sourceImages" class="source-images"></div>
+          <div class="source-tip">← → 切换用例<br />R 重置选区</div>
+        </section>
+        <footer>
+          <span>局部位置按图片宽高比例同步；不同构图时请结合上方全图判断。</span
+          ><a href="index.html">返回方案首页 ↗</a>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

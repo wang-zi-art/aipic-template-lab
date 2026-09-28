@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0006",
+  "name": "操作床人物融合",
+  "revision": 1,
+  "originalDirectory": "test6",
+  "sourceNote": "6.\n\n图1女生融合后躺在图2操作床上/图2大白捏女生嘴唇姿势\n让图一的女生半躺在图2的手术床上，男生的左手捏住女生的上唇",
+  "slotMappingStatus": "unverified",
+  "slots": [
+    {
+      "order": 1,
+      "slotKey": null,
+      "label": "上传图1（待核对）"
+    },
+    {
+      "order": 2,
+      "slotKey": null,
+      "label": "上传图2（待核对）"
+    }
+  ],
+  "competitorReference": {
+    "sourceType": "competitor",
+    "inputs": [
+      {
+        "path": "competitor/input_01.jpg",
+        "originalRelativePath": "test6/上传图1.jpg",
+        "sizeBytes": 1537103,
+        "sha256": "b5ef6c68b4858f50d90f42fa0998447b605c5d96b4b5aeb3472516b9b7eb6a86",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file",
+        "slotKey": null
+      },
+      {
+        "path": "competitor/input_02.jpg",
+        "originalRelativePath": "test6/上传图2.jpg",
+        "sizeBytes": 1798946,
+        "sha256": "fcfbb707e1a0d3556d96998be51bd0fe333464abcb6003136613370fef519294",
+        "contentType": "image/jpeg",
+        "order": 2,
+        "representation": "image_file",
+        "slotKey": null
+      }
+    ],
+    "effects": [
+      {
+        "path": "competitor/effect_01.jpg",
+        "originalRelativePath": "test6/生成效果图.jpg",
+        "sizeBytes": 1804849,
+        "sha256": "c872a994da058c72b600a97843a08bf4a46d67310b0a4a6490cbc967845fca9a",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file"
+      }
+    ],
+    "missingNote": null
+  },
+  "imageSets": [],
+  "testCases": []
+}

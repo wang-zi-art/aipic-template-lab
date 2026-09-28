@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0011",
+  "name": "面部骨相结构参考",
+  "revision": 1,
+  "originalDirectory": "test11",
+  "sourceNote": "11.\n把图1人物融合改变成图2的面部骨相结构/男女不限\n参考图1中人物按照参考图2的人物进行面部复刻，参考图1其他的严格保留。",
+  "slotMappingStatus": "unverified",
+  "slots": [
+    {
+      "order": 1,
+      "slotKey": null,
+      "label": "上传图1（待核对）"
+    },
+    {
+      "order": 2,
+      "slotKey": null,
+      "label": "上传图2（待核对）"
+    }
+  ],
+  "competitorReference": {
+    "sourceType": "competitor",
+    "inputs": [
+      {
+        "path": "competitor/input_01.jpg",
+        "originalRelativePath": "test11/上传图1.jpg",
+        "sizeBytes": 2230054,
+        "sha256": "b3824c6893e5d4c4c11a35f27a00e7c6aed9c05cc96f477d6a467c006858dfd1",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file",
+        "slotKey": null
+      },
+      {
+        "path": "competitor/input_02.jpg",
+        "originalRelativePath": "test11/上传图2.jpg",
+        "sizeBytes": 1539605,
+        "sha256": "2d15b4bff3a8e38a6c3ae6edcb3417ad27b66db82a7c35cd987b5ada492e3322",
+        "contentType": "image/jpeg",
+        "order": 2,
+        "representation": "image_file",
+        "slotKey": null
+      }
+    ],
+    "effects": [
+      {
+        "path": "competitor/effect_01.jpg",
+        "originalRelativePath": "test11/生成效果图.jpg",
+        "sizeBytes": 2344854,
+        "sha256": "bed674f9e1a28b795746062afba8c84ecf63e7e87e1bbe53e1681e88de26d50f",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file"
+      }
+    ],
+    "missingNote": null
+  },
+  "imageSets": [],
+  "testCases": []
+}

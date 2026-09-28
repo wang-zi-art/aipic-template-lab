@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "movedAt": "2026-09-23T04:04:45.998502+00:00",
+  "root": "D:\\pic",
+  "files": [
+    {
+      "oldPath": "test1/上传图1.jpg",
+      "newPath": "TPL0001-action-imitation/competitor/input_01_subject_image.jpg",
+      "sha256": "e5e3b2d592d31504ce8a1f7a4a4850cd41f07ce633d7e7c5f5714d7fd03330b6",
+      "sizeBytes": 145308
+    },
+    {
+      "oldPath": "test1/上传图2.jpg",
+      "newPath": "TPL0001-action-imitation/competitor/input_02_action_reference.jpg",
+      "sha256": "25ca09f645f581ca8031b67cd4c61cd86bb5af3479f46c7bd8cc3d604cdf3448",
+      "sizeBytes": 138827
+    },
+    {
+      "oldPath": "test1/生成效果图.png",
+      "newPath": "TPL0001-action-imitation/competitor/effect_01.png",
+      "sha256": "2eb443d6113919871e42388a3a6f7a96cf7bb3a360f4cf06ca8488063710556c",
+      "sizeBytes": 1382401
+    },
+    {
+      "oldPath": "test1/testexample1/uploadpic1.png",
+      "newPath": "TPL0001-action-imitation/test-inputs/S001/input_01_subject_image.webp",
+      "sha256": "fe88cee72507a63a97014fe3c8a8d7729015a30f515502d65399b99bd7729c89",
+      "sizeBytes": 17488
+    },
+    {
+      "oldPath": "test1/testexample1/uploadpic2.jpg",
+      "newPath": "TPL0001-action-imitation/test-inputs/S001/input_02_action_reference.jpg",
+      "sha256": "25ca09f645f581ca8031b67cd4c61cd86bb5af3479f46c7bd8cc3d604cdf3448",
+      "sizeBytes": 138827
+    },
+    {
+      "oldPath": "test1/testexample2/uploadpic1.jpg",
+      "newPath": "TPL0001-action-imitation/test-inputs/S002/input_01_subject_image.jpg",
+      "sha256": "1004d35cfe371214bda856fc8fe5e463c3931940e8e888e7f6a31cfeaa600aef",
+      "sizeBytes": 31108
+    },
+    {
+      "oldPath": "test1/testexample2/uploadpic2.jpg",
+      "newPath": "TPL0001-action-imitation/test-inputs/S002/input_02_action_reference.jpg",
+      "sha256": "25ca09f645f581ca8031b67cd4c61cd86bb5af3479f46c7bd8cc3d604cdf3448",
+      "sizeBytes": 138827
+    },
+    {
+      "oldPath": "test2/上传图1.jpg",
+      "newPath": "TPL0002-eyelid-medical-tape/competitor/input_01.jpg",
+      "sha256": "c74fac023a0e6b187435f88dbc479e15e83fcdad679c1f6321af9db507b58fdc",
+      "sizeBytes": 113288
+    },
+    {
+      "oldPath": "test2/上传图2.jpg",
+      "newPath": "TPL0002-eyelid-medical-tape/competitor/input_02.jpg",
+      "sha256": "0040d37693754eb1c7989e16e38c393a2ebf3d1e439246fe4464e31ae7976b42",
+      "sizeBytes": 55517
+    },
+    {
+      "oldPath": "test2/生成效果.jpg",
+      "newPath": "TPL0002-eyelid-medical-tape/competitor/effect_01.jpg",
+      "sha256": "565fcb1629c68d7b04a20c620ed890120a7c9e00bf88bd384e11c3d88c7f8c1d",
+      "sizeBytes": 148463
+    },
+    {
+      "oldPath": "test3/上传图1.jpg",
+      "newPath": "TPL0003-clinic-two-person-photo/competitor/input_01.jpg",
+      "sha256": "b5e4fa8980974dd9d892ebdf5ad736cfbc0c336e3c690be444ea54ed5ac33bea",
+      "sizeBytes": 2000773
+    },
+    {
+      "oldPath": "test3/上传图2.jpg",
+      "newPath": "TPL0003-clinic-two-person-photo/competitor/input_02.jpg",
+      "sha256": "62db7ee2fa581d62530a1b1107409b7969bc0d12e5f16b4c9f702fe4a12e25fc",
+      "sizeBytes": 1428976
+    },
+    {
+      "oldPath": "test3/生成效果.jpg",
+      "newPath": "TPL0003-clinic-two-person-photo/competitor/effect_01.jpg",
+      "sha256": "477f5b3e2215668ee1a28f1de8fb2a4b9e55e6b70386e337a7d8c1b359e3f3df",
+      "sizeBytes": 2025331
+    },
+    {
+      "oldPath": "test4/上传图1.jpg",
+      "newPath": "TPL0004-treatment-room-integration/competitor/input_01.jpg",
+      "sha256": "f6c4868c1298db68c03ef4dd6b68fe227acd1200736c7831a6b3c35f411d1a77",
+      "sizeBytes": 1704896
+    },
+    {
+      "oldPath": "test4/上传图2.jpg",
+      "newPath": "TPL0004-treatment-room-integration/competitor/input_02.jpg",
+      "sha256": "ccee9d5658c823707c3f0d80a86a2f6c3106ed01ba8954095fc7689072d1cfd7",
+      "sizeBytes": 1814104
+    },
+    {
+      "oldPath": "test4/生成效果图.jpg",
+      "newPath": "TPL0004-treatment-room-integration/competitor/effect_01.jpg",
+      "sha256": "b580dd060d0afb02cc3ea3ad427975b2aee6e97db682100d4f60209fce19eecc",
+      "sizeBytes": 1911792
+    },
+    {
+      "oldPath": "test5/上传图1.jpg",
+      "newPath": "TPL0005-consultation-room-integration/competitor/input_01.jpg",
+      "sha256": "d43463d1dd6300a9b53ba34b0a7863fdff2e16b9e0d8fce4cdb4f90cdb2807e5",
+      "sizeBytes": 1552764
+    },
+    {
+      "oldPath": "test5/上传图2.jpg",
+      "newPath": "TPL0005-consultation-room-integration/competitor/input_02.jpg",
+      "sha256": "27ff3764840898303a027e79932b9efb60cec44a2616aa7052c5667e2d155dc4",
+      "sizeBytes": 1624202
+    },
+    {
+      "oldPath": "test5/生成效果图.jpg",
+      "newPath": "TPL0005-consultation-room-integration/competitor/effect_01.jpg",
+      "sha256": "c431d536193cbcc85b0f6067bb01ff0a39f774e2caeaa95ddd3821597a3b4ff5",
+      "sizeBytes": 1596975
+    },
+    {
+      "oldPath": "test6/上传图1.jpg",
+      "newPath": "TPL0006-treatment-bed-integration/competitor/input_01.jpg",
+      "sha256": "b5ef6c68b4858f50d90f42fa0998447b605c5d96b4b5aeb3472516b9b7eb6a86",
+      "sizeBytes": 1537103
+    },
+    {
+      "oldPath": "test6/上传图2.jpg",
+      "newPath": "TPL0006-treatment-bed-integration/competitor/input_02.jpg",
+      "sha256": "fcfbb707e1a0d3556d96998be51bd0fe333464abcb6003136613370fef519294",
+      "sizeBytes": 1798946
+    },
+    {
+      "oldPath": "test6/生成效果图.jpg",
+      "newPath": "TPL0006-treatment-bed-integration/competitor/effect_01.jpg",
+      "sha256": "c872a994da058c72b600a97843a08bf4a46d67310b0a4a6490cbc967845fca9a",
+      "sizeBytes": 1804849
+    },
+    {
+      "oldPath": "test7/上传图1.jpg",
+      "newPath": "TPL0007-clinic-candid-portrait/competitor/input_01.jpg",
+      "sha256": "e82e397c76fee89d92049c33caabab92c27557cd3e620f763ba8d99c7d526d8c",
+      "sizeBytes": 1846412
+    },
+    {
+      "oldPath": "test7/生成效果图.jpg",
+      "newPath": "TPL0007-clinic-candid-portrait/competitor/effect_01.jpg",
+      "sha256": "64d776ecf29f04bcad14cd52446e6b45b22da82fdce8a2ec76d49692a3eed7fa",
+      "sizeBytes": 1924524
+    },
+    {
+      "oldPath": "test8/上传图1.jpg",
+      "newPath": "TPL0008-daily-selfie/competitor/input_01.jpg",
+      "sha256": "f47cefa6b6710afaed4ad7948649f514748b735446a6ca5e68d583324a530d8b",
+      "sizeBytes": 2025503
+    },
+    {
+      "oldPath": "test8/生成效果图.jpg",
+      "newPath": "TPL0008-daily-selfie/competitor/effect_01.jpg",
+      "sha256": "d5487e29a29ed83345bf6964b975b9689f72494dd471d92357316bd94406f1ce",
+      "sizeBytes": 2090864
+    },
+    {
+      "oldPath": "test9/上传图1.jpg",
+      "newPath": "TPL0009-lifestyle-makeover/competitor/input_01.jpg",
+      "sha256": "a40d6f1f9a0f3e1010a7f76ccf03f8b4d4698002abe584af91dd7a716acbabe3",
+      "sizeBytes": 2080003
+    },
+    {
+      "oldPath": "test9/生成效果图.jpg",
+      "newPath": "TPL0009-lifestyle-makeover/competitor/effect_01.jpg",
+      "sha256": "811f9091e980a296035ca5f847d0703397f5de054b05f04f5428bf50108c4c81",
+      "sizeBytes": 1845790
+    },
+    {
+      "oldPath": "test11/上传图1.jpg",
+      "newPath": "TPL0011-facial-structure-transfer/competitor/input_01.jpg",
+      "sha256": "b3824c6893e5d4c4c11a35f27a00e7c6aed9c05cc96f477d6a467c006858dfd1",
+      "sizeBytes": 2230054
+    },
+    {
+      "oldPath": "test11/上传图2.jpg",
+      "newPath": "TPL0011-facial-structure-transfer/competitor/input_02.jpg",
+      "sha256": "2d15b4bff3a8e38a6c3ae6edcb3417ad27b66db82a7c35cd987b5ada492e3322",
+      "sizeBytes": 1539605
+    },
+    {
+      "oldPath": "test11/生成效果图.jpg",
+      "newPath": "TPL0011-facial-structure-transfer/competitor/effect_01.jpg",
+      "sha256": "bed674f9e1a28b795746062afba8c84ecf63e7e87e1bbe53e1681e88de26d50f",
+      "sizeBytes": 2344854
+    },
+    {
+      "oldPath": "test13/上传图1.jpg",
+      "newPath": "TPL0013-recovery-lifestyle-photo/competitor/input_01.jpg",
+      "sha256": "7e2fad86dd8ea6d07a40e52b1e95fa3d1bc172ecdf9a5e82767c3db328a7a3a3",
+      "sizeBytes": 2038242
+    },
+    {
+      "oldPath": "test13/生成效果图.jpg",
+      "newPath": "TPL0013-recovery-lifestyle-photo/competitor/effect_01.jpg",
+      "sha256": "231cd1d9a083263526eff19d068545520bf81bc7ca4f5ff1350cc0079842b88c",
+      "sizeBytes": 2061662
+    },
+    {
+      "oldPath": "test14/Screenshot_2026-09-21-13-20-01-021_com.tencent.mm.jpg",
+      "newPath": "TPL0014-nose-replacement-side-view/competitor/effect_01_capture.jpg",
+      "sha256": "5bf38b47edaf1ca2266bb73c0131d532b0e8aff8ac611ca6198f41b08b2b1a74",
+      "sizeBytes": 1860492
+    },
+    {
+      "oldPath": "test14/Screenshot_2026-09-21-13-20-03-183_com.tencent.mm.jpg",
+      "newPath": "TPL0014-nose-replacement-side-view/competitor/input_01_capture.jpg",
+      "sha256": "53eefd3408e37e244d495912b708b32bc8b020b7c5d135a872f45c5f634a7eb2",
+      "sizeBytes": 2021876
+    },
+    {
+      "oldPath": "test14/Screenshot_2026-09-21-13-20-04-959_com.tencent.mm.jpg",
+      "newPath": "TPL0014-nose-replacement-side-view/competitor/input_02_capture.jpg",
+      "sha256": "55be79d046d0a15c0b219c1bfb380ecb5d190369cf14d9a7e2c38c6e0133825a",
+      "sizeBytes": 1295484
+    },
+    {
+      "oldPath": "test15/上传图1.jpg",
+      "newPath": "TPL0015-eyelid-recovery-timeline/competitor/input_01.jpg",
+      "sha256": "adfcf4be5a1aa0bf9b2109d83e2a01552afbdd59a2401b8e81a50fcf5aacbaca",
+      "sizeBytes": 325157
+    },
+    {
+      "oldPath": "test15/上传图2.jpg",
+      "newPath": "TPL0015-eyelid-recovery-timeline/competitor/input_02.jpg",
+      "sha256": "c9d97745d1acc0ccc2e03e3053ae7f956e51726feebd060bef832524916a3b1b",
+      "sizeBytes": 370598
+    },
+    {
+      "oldPath": "test15/上传图3.jpg",
+      "newPath": "TPL0015-eyelid-recovery-timeline/competitor/input_03.jpg",
+      "sha256": "ed6b227f90c35b39b7f586bdee21d14ff31cd8cca474c134872a86c5496ecc08",
+      "sizeBytes": 165106
+    },
+    {
+      "oldPath": "test15/生成效果图.jpg",
+      "newPath": "TPL0015-eyelid-recovery-timeline/competitor/effect_01.jpg",
+      "sha256": "9841d8ce5c0499ce1b0dec6df6e60ed1f502bf2bbf3d4e2951c188c4793bed3e",
+      "sizeBytes": 622278
+    },
+    {
+      "oldPath": "test16/上传图1.jpg",
+      "newPath": "TPL0016-nose-replacement-front-view/competitor/input_01.jpg",
+      "sha256": "5e1f81237a3df342320cc04e013bddad632f6176e24f97556edcd610b056763a",
+      "sizeBytes": 165909
+    },
+    {
+      "oldPath": "test16/上传图2.jpg",
+      "newPath": "TPL0016-nose-replacement-front-view/competitor/input_02.jpg",
+      "sha256": "c5ff3a29f46e94888e144b2fdf743b9c2d35b8fef0ad276694f78a9573b76828",
+      "sizeBytes": 43588
+    },
+    {
+      "oldPath": "test16/生成效果图.jpg",
+      "newPath": "TPL0016-nose-replacement-front-view/competitor/effect_01.jpg",
+      "sha256": "7bdbcfb18d02e8fc19bc3a4258d40ef73d7b08ef4160f69e7a94c24d8e92d1c6",
+      "sizeBytes": 169407
+    },
+    {
+      "oldPath": "test17/上传图1.jpg",
+      "newPath": "TPL0017-body-weight-change/competitor/input_01.jpg",
+      "sha256": "ddd8f2aa3b5bb8ddc4e58feb57fd80ae0cc9918c209277b5a28ab3d0a216670a",
+      "sizeBytes": 179132
+    },
+    {
+      "oldPath": "test17/生成效果图.jpg",
+      "newPath": "TPL0017-body-weight-change/competitor/effect_01.jpg",
+      "sha256": "0e03ab31e78a002fad58bf3fbfed69d528c87efb46ccc3033cb244dfca72a6ea",
+      "sizeBytes": 177595
+    },
+    {
+      "oldPath": "test18/上传图1.jpg",
+      "newPath": "TPL0018-eyelid-comparison-phone/competitor/input_01.jpg",
+      "sha256": "a6fb7195b23df5f8d5e687005e44e3f949635c9d357a587f97d5c4d1b988fd2a",
+      "sizeBytes": 177481
+    },
+    {
+      "oldPath": "test18/上传图2.jpg",
+      "newPath": "TPL0018-eyelid-comparison-phone/competitor/input_02.jpg",
+      "sha256": "4ded374fd581e7b050ae6d82259951bed5847f811a8b8da939aee7dfcda020f7",
+      "sizeBytes": 118300
+    },
+    {
+      "oldPath": "test18/生成效果图.jpg",
+      "newPath": "TPL0018-eyelid-comparison-phone/competitor/effect_01.jpg",
+      "sha256": "872276020a821f95059c3c3835fd31dae04a1a818eebd0b7c07a605ff18237cc",
+      "sizeBytes": 167090
+    }
+  ],
+  "sourceNote": {
+    "oldPath": "test.md",
+    "newPath": "source-notes/test.md",
+    "sha256": "9029baac740aec3c001c48f31f6a63656664664f2070bcedd2125bb1b0c87c17"
+  },
+  "snapshotPreservedAt": "D:\\myproject\\aipic\\.local\\mcp_test\\materials"
+}

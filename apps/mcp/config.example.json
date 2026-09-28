@@ -1,0 +1,6 @@
+{
+  "apiBaseUrl": "http://127.0.0.1:3000",
+  "adminSessionToken": "replace-with-formal-admin-session-token",
+  "inputRoot": "D:/replace-with-authorized-input-directory",
+  "outputRoot": "D:/replace-with-authorized-output-directory"
+}

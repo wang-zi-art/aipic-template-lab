@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0012",
+  "name": "五官复刻",
+  "revision": 1,
+  "originalDirectory": "test12",
+  "sourceNote": "12.\n\n将图2女生的五官复刻到图1女生的脸上/不改变图1女生整体面部状态\n查看示例\t以图1作为唯一基础脸型和面部状态来\t\n源，以图2作为五官来源为了匹配图2女生的五官无违和感，会淡化图1女生的面部肤色(包括但不限于淤青、疤痕)融合后的效果图可能会出现图2女生的发型!!!如有特殊描述可以在补充描述里补充说明",
+  "slotMappingStatus": "unverified",
+  "slots": [],
+  "competitorReference": null,
+  "imageSets": [],
+  "testCases": []
+}

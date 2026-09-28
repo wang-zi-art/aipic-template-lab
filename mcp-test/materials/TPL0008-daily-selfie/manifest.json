@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0008",
+  "name": "日常手机自拍",
+  "revision": 1,
+  "originalDirectory": "test8",
+  "sourceNote": "8.\n抖音/小红书日常手机自拍照\n以参考图中成年女性为主体，生成一张真实的抖音/小红书日常手机自拍照，生活化真实感更强。",
+  "slotMappingStatus": "unverified",
+  "slots": [
+    {
+      "order": 1,
+      "slotKey": null,
+      "label": "上传图1（待核对）"
+    }
+  ],
+  "competitorReference": {
+    "sourceType": "competitor",
+    "inputs": [
+      {
+        "path": "competitor/input_01.jpg",
+        "originalRelativePath": "test8/上传图1.jpg",
+        "sizeBytes": 2025503,
+        "sha256": "f47cefa6b6710afaed4ad7948649f514748b735446a6ca5e68d583324a530d8b",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file",
+        "slotKey": null
+      }
+    ],
+    "effects": [
+      {
+        "path": "competitor/effect_01.jpg",
+        "originalRelativePath": "test8/生成效果图.jpg",
+        "sizeBytes": 2090864,
+        "sha256": "d5487e29a29ed83345bf6964b975b9689f72494dd471d92357316bd94406f1ce",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file"
+      }
+    ],
+    "missingNote": null
+  },
+  "imageSets": [],
+  "testCases": []
+}

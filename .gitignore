@@ -1,0 +1,11 @@
+node_modules/
+.pnpm-store/
+dist/
+coverage/
+*.log
+__pycache__/
+*.pyc
+.local/
+.codex/config.toml
+.DS_Store
+Thumbs.db

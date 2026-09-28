@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0015",
+  "name": "双眼皮愈合时间线",
+  "revision": 1,
+  "originalDirectory": "test15",
+  "sourceNote": "15.\n上传3张图/双眼皮术后愈合过程3天/7天/30天过程(女生版)上传两张图，图1是原图，图2是双眼皮缝线处位置复刻图(建议使用系统图)，图3是排版布局图。一张临床医学时间线拼贴照片，记录重睑成形术(双眼皮手术)的愈合过程",
+  "slotMappingStatus": "unverified",
+  "slots": [
+    {
+      "order": 1,
+      "slotKey": null,
+      "label": "上传图1（待核对）"
+    },
+    {
+      "order": 2,
+      "slotKey": null,
+      "label": "上传图2（待核对）"
+    },
+    {
+      "order": 3,
+      "slotKey": null,
+      "label": "上传图3（待核对）"
+    }
+  ],
+  "competitorReference": {
+    "sourceType": "competitor",
+    "inputs": [
+      {
+        "path": "competitor/input_01.jpg",
+        "originalRelativePath": "test15/上传图1.jpg",
+        "sizeBytes": 325157,
+        "sha256": "adfcf4be5a1aa0bf9b2109d83e2a01552afbdd59a2401b8e81a50fcf5aacbaca",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file",
+        "slotKey": null
+      },
+      {
+        "path": "competitor/input_02.jpg",
+        "originalRelativePath": "test15/上传图2.jpg",
+        "sizeBytes": 370598,
+        "sha256": "c9d97745d1acc0ccc2e03e3053ae7f956e51726feebd060bef832524916a3b1b",
+        "contentType": "image/jpeg",
+        "order": 2,
+        "representation": "image_file",
+        "slotKey": null
+      },
+      {
+        "path": "competitor/input_03.jpg",
+        "originalRelativePath": "test15/上传图3.jpg",
+        "sizeBytes": 165106,
+        "sha256": "ed6b227f90c35b39b7f586bdee21d14ff31cd8cca474c134872a86c5496ecc08",
+        "contentType": "image/jpeg",
+        "order": 3,
+        "representation": "image_file",
+        "slotKey": null
+      }
+    ],
+    "effects": [
+      {
+        "path": "competitor/effect_01.jpg",
+        "originalRelativePath": "test15/生成效果图.jpg",
+        "sizeBytes": 622278,
+        "sha256": "9841d8ce5c0499ce1b0dec6df6e60ed1f502bf2bbf3d4e2951c188c4793bed3e",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file"
+      }
+    ],
+    "missingNote": null
+  },
+  "imageSets": [],
+  "testCases": []
+}

@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0019",
+  "name": "正面眼形替换",
+  "revision": 3,
+  "sourceNote": "眼睛部位的单部位替换\n给图一原图女生的眼睛变成图二眼睛的形态+正面机位。最好选择正面近景，这样更能突出眼睛的效果",
+  "slotMappingStatus": "unverified",
+  "slotMappingNote": "栏位键来自旧项目的候选回读，仅作为待核对定义；新候选试用前须回读后台当前版本。友商平台原始栏位键未知，competitorReference.inputs 中仍记为 null。",
+  "slots": [
+    {
+      "order": 1,
+      "slotKey": "subject_portrait",
+      "label": "原图人物"
+    },
+    {
+      "order": 2,
+      "slotKey": "eye_shape_reference",
+      "label": "眼形参考"
+    }
+  ],
+  "competitorReference": {
+    "sourceType": "competitor",
+    "inputs": [
+      {
+        "path": "competitor/input_01.jpg",
+        "originalRelativePath": "TPL0019-eyelid/competitor/input_01.jpg",
+        "sizeBytes": 3170673,
+        "sha256": "97510d6cae6435357fe560ea0040c3b9b624f60734bffcffc129488c65a668e1",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file",
+        "slotKey": null
+      },
+      {
+        "path": "competitor/input_02.jpg",
+        "originalRelativePath": "TPL0019-eyelid/competitor/input_02.jpg",
+        "sizeBytes": 308310,
+        "sha256": "c3806a27f036ccf1c1033ddffdfc5f8c0dbcdb4708f9acd49e881e31ec35b4ef",
+        "contentType": "image/jpeg",
+        "order": 2,
+        "representation": "image_file",
+        "slotKey": null
+      }
+    ],
+    "effects": [
+      {
+        "path": "competitor/effect_01.jpg",
+        "originalRelativePath": "TPL0019-eyelid/competitor/effect.jpg",
+        "sizeBytes": 3276443,
+        "sha256": "069801bff26cb741c6a262394c19d46ce286ee0a1f329b58733962bf78771926",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file"
+      }
+    ],
+    "missingNote": null
+  },
+  "imageSets": [
+    {
+      "id": "S001",
+      "inputs": [
+        {
+          "path": "test-inputs/S001/input_01_subject_portrait.jpg",
+          "originalRelativePath": "test-inputs/S001/input_01.jpg",
+          "sizeBytes": 3201507,
+          "sha256": "d4d373d84ae50bde4be480bcb65174916e88722ba1d22bd036582d800c2f263e",
+          "contentType": "image/jpeg",
+          "order": 1,
+          "slotKey": "subject_portrait",
+          "representation": "image_file"
+        },
+        {
+          "path": "test-inputs/S001/input_02_eye_shape_reference.jpg",
+          "originalRelativePath": "test-inputs/S001/input_02.jpg",
+          "sizeBytes": 308310,
+          "sha256": "c3806a27f036ccf1c1033ddffdfc5f8c0dbcdb4708f9acd49e881e31ec35b4ef",
+          "contentType": "image/jpeg",
+          "order": 2,
+          "slotKey": "eye_shape_reference",
+          "representation": "image_file"
+        }
+      ],
+      "tags": ["正面半身人像", "黑色背景", "白色上衣", "图2复用同一眼形参考"]
+    },
+    {
+      "id": "S002",
+      "inputs": [
+        {
+          "path": "test-inputs/S002/input_01_subject_portrait.jpg",
+          "originalRelativePath": "test-inputs/S002/input_01.jpg",
+          "sizeBytes": 3141597,
+          "sha256": "c37013996e6c9e78dd0b578a1fa4f59b700f41381f9cc97b8f79361b34f7e160",
+          "contentType": "image/jpeg",
+          "order": 1,
+          "slotKey": "subject_portrait",
+          "representation": "image_file"
+        },
+        {
+          "path": "test-inputs/S002/input_02_eye_shape_reference.jpg",
+          "originalRelativePath": "test-inputs/S002/input_02.jpg",
+          "sizeBytes": 308310,
+          "sha256": "c3806a27f036ccf1c1033ddffdfc5f8c0dbcdb4708f9acd49e881e31ec35b4ef",
+          "contentType": "image/jpeg",
+          "order": 2,
+          "slotKey": "eye_shape_reference",
+          "representation": "image_file"
+        }
+      ],
+      "tags": ["正面半身人像", "黑色背景", "脸部在画面中较小", "图2复用同一眼形参考"]
+    },
+    {
+      "id": "S003",
+      "inputs": [
+        {
+          "path": "test-inputs/S003/input_01_subject_portrait.jpg",
+          "originalRelativePath": "test-inputs/S003/input_01.jpg",
+          "sizeBytes": 3145305,
+          "sha256": "47f45520cb7817975104cb874c9d1c0b947906e53fbb185c8d6abed66e41ef98",
+          "contentType": "image/jpeg",
+          "order": 1,
+          "slotKey": "subject_portrait",
+          "representation": "image_file"
+        },
+        {
+          "path": "test-inputs/S003/input_02_eye_shape_reference.jpg",
+          "originalRelativePath": "test-inputs/S003/input_02.jpg",
+          "sizeBytes": 308310,
+          "sha256": "c3806a27f036ccf1c1033ddffdfc5f8c0dbcdb4708f9acd49e881e31ec35b4ef",
+          "contentType": "image/jpeg",
+          "order": 2,
+          "slotKey": "eye_shape_reference",
+          "representation": "image_file"
+        }
+      ],
+      "tags": ["正面近景人像", "黑色背景", "蓝色外套", "图2复用同一眼形参考"]
+    },
+    {
+      "id": "S004",
+      "inputs": [
+        {
+          "path": "test-inputs/S004/input_01_subject_portrait.jpg",
+          "originalRelativePath": "test-inputs/S004/input_01.jpg",
+          "sizeBytes": 4009293,
+          "sha256": "d1b603eb490da8208f16655b177682aa53eb2911b64b6e719c4d98d2f4562b09",
+          "contentType": "image/jpeg",
+          "order": 1,
+          "slotKey": "subject_portrait",
+          "representation": "image_file"
+        },
+        {
+          "path": "test-inputs/S004/input_02_eye_shape_reference.jpg",
+          "originalRelativePath": "test-inputs/S004/input_02.jpg",
+          "sizeBytes": 308310,
+          "sha256": "c3806a27f036ccf1c1033ddffdfc5f8c0dbcdb4708f9acd49e881e31ec35b4ef",
+          "contentType": "image/jpeg",
+          "order": 2,
+          "slotKey": "eye_shape_reference",
+          "representation": "image_file"
+        }
+      ],
+      "tags": ["正面半身人像", "黑色背景", "白色针织上衣", "图2复用同一眼形参考"]
+    }
+  ],
+  "testCases": [
+    {
+      "id": "T001",
+      "imageSetId": "S001",
+      "pool": "development",
+      "supplementalDescription": null,
+      "focus": "正面半身人物能否保持身份并将图二眼形自然适配到双眼"
+    },
+    {
+      "id": "T002",
+      "imageSetId": "S002",
+      "pool": "development",
+      "supplementalDescription": null,
+      "focus": "人物脸部较小时能否明显呈现眼形变化，同时保留原图身份"
+    },
+    {
+      "id": "T003",
+      "imageSetId": "S003",
+      "pool": "development",
+      "supplementalDescription": null,
+      "focus": "正面近景能否准确迁移眼形并保持眼周自然衔接"
+    },
+    {
+      "id": "T004",
+      "imageSetId": "S004",
+      "pool": "development",
+      "supplementalDescription": null,
+      "focus": "另一位正面人物能否保留非眼部外观并呈现协调的双眼形态"
+    }
+  ]
+}

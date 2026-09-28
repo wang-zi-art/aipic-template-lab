@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0014",
+  "name": "侧面鼻形替换",
+  "revision": 1,
+  "originalDirectory": "test14",
+  "sourceNote": "14.\n将图1鼻子替换成图2鼻子+侧面机位(黑色背景、韩系低丸子、随机上衣)\n将图1女生的鼻子替换成图2鼻子(注意图2只能上传只展示鼻子的局部图)，同时将女生的背景变成黑色背景，韩系低丸子，随机日常上衣，不改变女生原本站姿及鼻子朝向。",
+  "slotMappingStatus": "unverified",
+  "slots": [
+    {
+      "order": 1,
+      "slotKey": null,
+      "label": "上传图1（待核对）"
+    },
+    {
+      "order": 2,
+      "slotKey": null,
+      "label": "上传图2（待核对）"
+    }
+  ],
+  "competitorReference": {
+    "sourceType": "competitor",
+    "inputs": [
+      {
+        "path": "competitor/input_01_capture.jpg",
+        "originalRelativePath": "test14/Screenshot_2026-09-21-13-20-03-183_com.tencent.mm.jpg",
+        "sizeBytes": 2021876,
+        "sha256": "53eefd3408e37e244d495912b708b32bc8b020b7c5d135a872f45c5f634a7eb2",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "screenshot",
+        "slotKey": null
+      },
+      {
+        "path": "competitor/input_02_capture.jpg",
+        "originalRelativePath": "test14/Screenshot_2026-09-21-13-20-04-959_com.tencent.mm.jpg",
+        "sizeBytes": 1295484,
+        "sha256": "55be79d046d0a15c0b219c1bfb380ecb5d190369cf14d9a7e2c38c6e0133825a",
+        "contentType": "image/jpeg",
+        "order": 2,
+        "representation": "screenshot",
+        "slotKey": null
+      }
+    ],
+    "effects": [
+      {
+        "path": "competitor/effect_01_capture.jpg",
+        "originalRelativePath": "test14/Screenshot_2026-09-21-13-20-01-021_com.tencent.mm.jpg",
+        "sizeBytes": 1860492,
+        "sha256": "5bf38b47edaf1ca2266bb73c0131d532b0e8aff8ac611ca6198f41b08b2b1a74",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "screenshot"
+      }
+    ],
+    "missingNote": null
+  },
+  "imageSets": [],
+  "testCases": []
+}

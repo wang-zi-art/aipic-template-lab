@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0001",
+  "name": "动作模仿",
+  "revision": 2,
+  "originalDirectory": "test1",
+  "sourceNote": "1.\n上传图1素人图+图2动作图/复刻图2女生动作\n让图1女生如同参考图2一样手持冰袋",
+  "slotMappingStatus": "unverified",
+  "slotMappingNote": "栏位键来自旧项目的历史试用报告，仅作为待核对定义；新候选试用前须回读后台当前版本。",
+  "slots": [
+    {
+      "order": 1,
+      "slotKey": "subject_image",
+      "label": "主体人物"
+    },
+    {
+      "order": 2,
+      "slotKey": "action_reference",
+      "label": "动作参考"
+    }
+  ],
+  "competitorReference": {
+    "sourceType": "competitor",
+    "inputs": [
+      {
+        "path": "competitor/input_01_subject_image.jpg",
+        "originalRelativePath": "test1/上传图1.jpg",
+        "sizeBytes": 145308,
+        "sha256": "e5e3b2d592d31504ce8a1f7a4a4850cd41f07ce633d7e7c5f5714d7fd03330b6",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file",
+        "slotKey": "subject_image"
+      },
+      {
+        "path": "competitor/input_02_action_reference.jpg",
+        "originalRelativePath": "test1/上传图2.jpg",
+        "sizeBytes": 138827,
+        "sha256": "25ca09f645f581ca8031b67cd4c61cd86bb5af3479f46c7bd8cc3d604cdf3448",
+        "contentType": "image/jpeg",
+        "order": 2,
+        "representation": "image_file",
+        "slotKey": "action_reference"
+      }
+    ],
+    "effects": [
+      {
+        "path": "competitor/effect_01.png",
+        "originalRelativePath": "test1/生成效果图.png",
+        "sizeBytes": 1382401,
+        "sha256": "2eb443d6113919871e42388a3a6f7a96cf7bb3a360f4cf06ca8488063710556c",
+        "contentType": "image/png",
+        "order": 1,
+        "representation": "image_file"
+      }
+    ],
+    "missingNote": null
+  },
+  "imageSets": [
+    {
+      "id": "S001",
+      "originalDirectory": "test1/testexample1",
+      "inputs": [
+        {
+          "path": "test-inputs/S001/input_01_subject_image.webp",
+          "originalRelativePath": "test1/testexample1/uploadpic1.png",
+          "sizeBytes": 17488,
+          "sha256": "fe88cee72507a63a97014fe3c8a8d7729015a30f515502d65399b99bd7729c89",
+          "contentType": "image/webp",
+          "order": 1,
+          "slotKey": "subject_image"
+        },
+        {
+          "path": "test-inputs/S001/input_02_action_reference.jpg",
+          "originalRelativePath": "test1/testexample1/uploadpic2.jpg",
+          "sizeBytes": 138827,
+          "sha256": "25ca09f645f581ca8031b67cd4c61cd86bb5af3479f46c7bd8cc3d604cdf3448",
+          "contentType": "image/jpeg",
+          "order": 2,
+          "slotKey": "action_reference"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "S002",
+      "originalDirectory": "test1/testexample2",
+      "inputs": [
+        {
+          "path": "test-inputs/S002/input_01_subject_image.jpg",
+          "originalRelativePath": "test1/testexample2/uploadpic1.jpg",
+          "sizeBytes": 31108,
+          "sha256": "1004d35cfe371214bda856fc8fe5e463c3931940e8e888e7f6a31cfeaa600aef",
+          "contentType": "image/jpeg",
+          "order": 1,
+          "slotKey": "subject_image"
+        },
+        {
+          "path": "test-inputs/S002/input_02_action_reference.jpg",
+          "originalRelativePath": "test1/testexample2/uploadpic2.jpg",
+          "sizeBytes": 138827,
+          "sha256": "25ca09f645f581ca8031b67cd4c61cd86bb5af3479f46c7bd8cc3d604cdf3448",
+          "contentType": "image/jpeg",
+          "order": 2,
+          "slotKey": "action_reference"
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "testCases": [
+    {
+      "id": "T001",
+      "imageSetId": "S001",
+      "pool": "development",
+      "supplementalDescription": "让图一人物参考图二一样手持冰袋",
+      "focus": "动作模仿及手持冰袋"
+    },
+    {
+      "id": "T002",
+      "imageSetId": "S002",
+      "pool": "development",
+      "supplementalDescription": "让图一人物参考图二一样手持冰袋",
+      "focus": "动作模仿及手持冰袋"
+    }
+  ]
+}

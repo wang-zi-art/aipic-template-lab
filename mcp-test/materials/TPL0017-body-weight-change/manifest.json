@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0017",
+  "name": "身材增重效果",
+  "revision": 1,
+  "originalDirectory": "test17",
+  "sourceNote": "17.\n\n女生身材从瘦变成肥胖(重度肥胖)\n把图片中的成年女性自然调整为全身脂肪分布自然增加后的真实效果(160-180斤视觉效果)",
+  "slotMappingStatus": "unverified",
+  "slots": [
+    {
+      "order": 1,
+      "slotKey": null,
+      "label": "上传图1（待核对）"
+    }
+  ],
+  "competitorReference": {
+    "sourceType": "competitor",
+    "inputs": [
+      {
+        "path": "competitor/input_01.jpg",
+        "originalRelativePath": "test17/上传图1.jpg",
+        "sizeBytes": 179132,
+        "sha256": "ddd8f2aa3b5bb8ddc4e58feb57fd80ae0cc9918c209277b5a28ab3d0a216670a",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file",
+        "slotKey": null
+      }
+    ],
+    "effects": [
+      {
+        "path": "competitor/effect_01.jpg",
+        "originalRelativePath": "test17/生成效果图.jpg",
+        "sizeBytes": 177595,
+        "sha256": "0e03ab31e78a002fad58bf3fbfed69d528c87efb46ccc3033cb244dfca72a6ea",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file"
+      }
+    ],
+    "missingNote": null
+  },
+  "imageSets": [],
+  "testCases": []
+}

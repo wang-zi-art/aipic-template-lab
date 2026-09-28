@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0009",
+  "name": "小红书日常形象照",
+  "revision": 1,
+  "originalDirectory": "test9",
+  "sourceNote": "9.\n上传人物照给人物换背景/服饰/妆容(动作、夏季服饰、背景随机)/小红书种草风格上传1张模特图生成小红书/抖音博主\t日常照/背景、妆容、动作、服饰随机。",
+  "slotMappingStatus": "unverified",
+  "slots": [
+    {
+      "order": 1,
+      "slotKey": null,
+      "label": "上传图1（待核对）"
+    }
+  ],
+  "competitorReference": {
+    "sourceType": "competitor",
+    "inputs": [
+      {
+        "path": "competitor/input_01.jpg",
+        "originalRelativePath": "test9/上传图1.jpg",
+        "sizeBytes": 2080003,
+        "sha256": "a40d6f1f9a0f3e1010a7f76ccf03f8b4d4698002abe584af91dd7a716acbabe3",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file",
+        "slotKey": null
+      }
+    ],
+    "effects": [
+      {
+        "path": "competitor/effect_01.jpg",
+        "originalRelativePath": "test9/生成效果图.jpg",
+        "sizeBytes": 1845790,
+        "sha256": "811f9091e980a296035ca5f847d0703397f5de054b05f04f5428bf50108c4c81",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file"
+      }
+    ],
+    "missingNote": null
+  },
+  "imageSets": [],
+  "testCases": []
+}

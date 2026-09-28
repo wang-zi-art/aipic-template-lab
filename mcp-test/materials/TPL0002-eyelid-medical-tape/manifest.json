@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0002",
+  "name": "双眼皮固定医用胶带",
+  "revision": 2,
+  "originalDirectory": "test2",
+  "sourceNote": "2.\n给图片中的人物增加术后双眼皮固定医用胶带/男女不限\n上传1张术后双眼皮恢复期图+双眼皮\n固定医用胶带(需要使用系统的图2)",
+  "slotMappingStatus": "unverified",
+  "slots": [
+    {
+      "order": 1,
+      "slotKey": null,
+      "label": "主体人物（栏位键待核对）"
+    },
+    {
+      "order": 2,
+      "slotKey": null,
+      "label": "医用胶带参考（栏位键待核对）"
+    }
+  ],
+  "competitorReference": {
+    "sourceType": "competitor",
+    "inputs": [
+      {
+        "path": "competitor/input_01.jpg",
+        "originalRelativePath": "test2/上传图1.jpg",
+        "sizeBytes": 113288,
+        "sha256": "c74fac023a0e6b187435f88dbc479e15e83fcdad679c1f6321af9db507b58fdc",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file",
+        "slotKey": null
+      },
+      {
+        "path": "competitor/input_02.jpg",
+        "originalRelativePath": "test2/上传图2.jpg",
+        "sizeBytes": 55517,
+        "sha256": "0040d37693754eb1c7989e16e38c393a2ebf3d1e439246fe4464e31ae7976b42",
+        "contentType": "image/jpeg",
+        "order": 2,
+        "representation": "screenshot",
+        "slotKey": null
+      }
+    ],
+    "effects": [
+      {
+        "path": "competitor/effect_01.jpg",
+        "originalRelativePath": "test2/生成效果.jpg",
+        "sizeBytes": 148463,
+        "sha256": "565fcb1629c68d7b04a20c620ed890120a7c9e00bf88bd384e11c3d88c7f8c1d",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file"
+      }
+    ],
+    "missingNote": null
+  },
+  "imageSets": [
+    {
+      "id": "S001",
+      "inputs": [
+        {
+          "path": "test-inputs/S001/input_01_subject_image.webp",
+          "sizeBytes": 17488,
+          "sha256": "fe88cee72507a63a97014fe3c8a8d7729015a30f515502d65399b99bd7729c89",
+          "contentType": "image/webp",
+          "order": 1,
+          "slotKey": null,
+          "representation": "image_file"
+        },
+        {
+          "path": "test-inputs/S001/input_02_tape_reference_capture.jpg",
+          "sizeBytes": 55517,
+          "sha256": "0040d37693754eb1c7989e16e38c393a2ebf3d1e439246fe4464e31ae7976b42",
+          "contentType": "image/jpeg",
+          "order": 2,
+          "slotKey": null,
+          "representation": "screenshot"
+        }
+      ],
+      "tags": ["正面人物", "室内背景"]
+    },
+    {
+      "id": "S002",
+      "inputs": [
+        {
+          "path": "test-inputs/S002/input_01_subject_image.jpg",
+          "sizeBytes": 31108,
+          "sha256": "1004d35cfe371214bda856fc8fe5e463c3931940e8e888e7f6a31cfeaa600aef",
+          "contentType": "image/jpeg",
+          "order": 1,
+          "slotKey": null,
+          "representation": "image_file"
+        },
+        {
+          "path": "test-inputs/S002/input_02_tape_reference_capture.jpg",
+          "sizeBytes": 55517,
+          "sha256": "0040d37693754eb1c7989e16e38c393a2ebf3d1e439246fe4464e31ae7976b42",
+          "contentType": "image/jpeg",
+          "order": 2,
+          "slotKey": null,
+          "representation": "screenshot"
+        }
+      ],
+      "tags": ["侧面人物", "古装"]
+    },
+    {
+      "id": "S003",
+      "inputs": [
+        {
+          "path": "test-inputs/S003/input_01_subject_image.webp",
+          "sizeBytes": 19256,
+          "sha256": "96cf9ef7ee2083d638e2e250e856e8d90b10c3591003ca6393119520b2cd3d5b",
+          "contentType": "image/webp",
+          "order": 1,
+          "slotKey": null,
+          "representation": "image_file"
+        },
+        {
+          "path": "test-inputs/S003/input_02_tape_reference_capture.jpg",
+          "sizeBytes": 55517,
+          "sha256": "0040d37693754eb1c7989e16e38c393a2ebf3d1e439246fe4464e31ae7976b42",
+          "contentType": "image/jpeg",
+          "order": 2,
+          "slotKey": null,
+          "representation": "screenshot"
+        }
+      ],
+      "tags": ["正面人物", "户外背景"]
+    }
+  ],
+  "testCases": [
+    {
+      "id": "T001",
+      "imageSetId": "S001",
+      "pool": "development",
+      "supplementalDescription": null,
+      "focus": "正面人物使用胶带参考图时的生成表现"
+    },
+    {
+      "id": "T002",
+      "imageSetId": "S002",
+      "pool": "development",
+      "supplementalDescription": null,
+      "focus": "侧面人物使用胶带参考图时的生成表现"
+    },
+    {
+      "id": "T003",
+      "imageSetId": "S003",
+      "pool": "development",
+      "supplementalDescription": null,
+      "focus": "户外正面人物使用胶带参考图时的生成表现"
+    }
+  ]
+}

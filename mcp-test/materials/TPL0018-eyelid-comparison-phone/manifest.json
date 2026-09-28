@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0018",
+  "name": "单双眼皮手机对比图",
+  "revision": 1,
+  "originalDirectory": "test18",
+  "sourceNote": "18.\n单双眼皮对比图(大白手持手机版)\n女生的额头上方，有一只戴着白色医用手套的手拿着一部手机。手机屏幕里只显示她的双眼，是原生单眼皮状态，和参考图的构图、角度保持一致。手机下方的真人脸部，眼睛是当前图片里的术后状态。",
+  "slotMappingStatus": "unverified",
+  "slots": [
+    {
+      "order": 1,
+      "slotKey": null,
+      "label": "上传图1（待核对）"
+    },
+    {
+      "order": 2,
+      "slotKey": null,
+      "label": "上传图2（待核对）"
+    }
+  ],
+  "competitorReference": {
+    "sourceType": "competitor",
+    "inputs": [
+      {
+        "path": "competitor/input_01.jpg",
+        "originalRelativePath": "test18/上传图1.jpg",
+        "sizeBytes": 177481,
+        "sha256": "a6fb7195b23df5f8d5e687005e44e3f949635c9d357a587f97d5c4d1b988fd2a",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file",
+        "slotKey": null
+      },
+      {
+        "path": "competitor/input_02.jpg",
+        "originalRelativePath": "test18/上传图2.jpg",
+        "sizeBytes": 118300,
+        "sha256": "4ded374fd581e7b050ae6d82259951bed5847f811a8b8da939aee7dfcda020f7",
+        "contentType": "image/jpeg",
+        "order": 2,
+        "representation": "image_file",
+        "slotKey": null
+      }
+    ],
+    "effects": [
+      {
+        "path": "competitor/effect_01.jpg",
+        "originalRelativePath": "test18/生成效果图.jpg",
+        "sizeBytes": 167090,
+        "sha256": "872276020a821f95059c3c3835fd31dae04a1a818eebd0b7c07a605ff18237cc",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file"
+      }
+    ],
+    "missingNote": null
+  },
+  "imageSets": [],
+  "testCases": []
+}

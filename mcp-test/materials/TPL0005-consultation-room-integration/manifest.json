@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0005",
+  "name": "咨询室人物融合",
+  "revision": 1,
+  "originalDirectory": "test5",
+  "sourceNote": "5.将图1的女生融合到图2的咨询室环境中\n将图1女生1:1精准融合到图2的医美咨询室环境中:让图1的女生坐在图2里咨询师对面的椅子上，身体朝向图2的咨询师与办公桌，呈现自然放松的面诊坐姿。",
+  "slotMappingStatus": "unverified",
+  "slots": [
+    {
+      "order": 1,
+      "slotKey": null,
+      "label": "上传图1（待核对）"
+    },
+    {
+      "order": 2,
+      "slotKey": null,
+      "label": "上传图2（待核对）"
+    }
+  ],
+  "competitorReference": {
+    "sourceType": "competitor",
+    "inputs": [
+      {
+        "path": "competitor/input_01.jpg",
+        "originalRelativePath": "test5/上传图1.jpg",
+        "sizeBytes": 1552764,
+        "sha256": "d43463d1dd6300a9b53ba34b0a7863fdff2e16b9e0d8fce4cdb4f90cdb2807e5",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file",
+        "slotKey": null
+      },
+      {
+        "path": "competitor/input_02.jpg",
+        "originalRelativePath": "test5/上传图2.jpg",
+        "sizeBytes": 1624202,
+        "sha256": "27ff3764840898303a027e79932b9efb60cec44a2616aa7052c5667e2d155dc4",
+        "contentType": "image/jpeg",
+        "order": 2,
+        "representation": "image_file",
+        "slotKey": null
+      }
+    ],
+    "effects": [
+      {
+        "path": "competitor/effect_01.jpg",
+        "originalRelativePath": "test5/生成效果图.jpg",
+        "sizeBytes": 1596975,
+        "sha256": "c431d536193cbcc85b0f6067bb01ff0a39f774e2caeaa95ddd3821597a3b4ff5",
+        "contentType": "image/jpeg",
+        "order": 1,
+        "representation": "image_file"
+      }
+    ],
+    "missingNote": null
+  },
+  "imageSets": [],
+  "testCases": []
+}

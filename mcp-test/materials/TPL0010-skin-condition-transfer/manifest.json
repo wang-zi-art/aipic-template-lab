@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "templateTypeId": "TPL0010",
+  "name": "面部皮肤状态参考",
+  "revision": 1,
+  "originalDirectory": "test10",
+  "sourceNote": "10.\n图2女生复刻图1面部皮肤状态/适合面部提升、面部打薄、鼻子、双眼皮术后即刻/淤青状态\n以第二张图作为目标主体图，以第一张图作为面部皮肤状态参考图进行编辑。",
+  "slotMappingStatus": "unverified",
+  "slots": [],
+  "competitorReference": null,
+  "imageSets": [],
+  "testCases": []
+}
